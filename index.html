@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Centered Panorama Slider</title>
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      crossorigin
+      src="https://panorama-slider.uiinitiative.com/assets/index.d2ce9dca.js"
+    ></script>
+    <link
+      rel="modulepreload"
+      href="https://panorama-slider.uiinitiative.com/assets/vendor.dba6b2d2.js"
+    />
+    <link
+      rel="stylesheet"
+      href="https://panorama-slider.uiinitiative.com/assets/index.c1d53924.css"
+    />
+    <style>
+
+      body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000; 
+      }
+
+      .container {
+        width: 90%;
+        border-radius: 10px;
+        max-width: 1200px;
+      }
+
+      .panorama-slider {
+        width: 100%;
+      }
+
+      .slide-image {
+        width: 100%;
+        border-radius: 10px;
+      }
+      
+    </style>
+  </head>
+  <body>
+
+
+    <div class="container">
+      <div class="panorama-slider autoplay">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="slide-image" src="/css/panorama/images/1.png" alt="Slide 1" />
+            </div>
+            <div class="swiper-slide">
+              <img class="slide-image" src="/css/panorama/images/2.png" alt="Slide 2" />
+            </div>
+            <div class="swiper-slide">
+              <img class="slide-image" src="/css/panorama/images/3.png" alt="Slide 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
